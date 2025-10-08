@@ -1,5 +1,5 @@
 let text = "Hello";
 
-let result = text.replaceAll(/[aeiouAEIOU]/g, "");
+let result = text.replaceAll(/[Aeiou]/g, "");
 
 console.log(result);
